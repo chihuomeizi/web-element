@@ -1,0 +1,23 @@
+.lmm_banner{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  ul{
+    &:first-child{
+      width: 100%*9;
+      transform: translateX(-100%/9);
+      >li{
+        width: 100%/9;
+        float:left;
+        >a{
+          width: 100%;
+          display: block;
+          >img{
+            width: 100%;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

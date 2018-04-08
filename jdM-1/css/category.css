@@ -1,0 +1,140 @@
+/*body,html{
+    height: 100%;
+}*/
+.jd_container{
+  /* 当你给全屏容器 设置width: 100%; height: 100% 时 他是不起作用的 所以有两种方法 : 1.我们可以给jd_container的父级或祖父级设置height:100%
+   就可以了   2. 给jd_container 设置一个position: absolute; top:0;left:0 就可以解决  */
+  width: 100%;
+  height: 100%;
+ /*  background: pink;  */
+
+  position: absolute;
+  top:0;
+  left:0;   
+}
+.jd_topBar{
+  height: 45px;
+  width: 100%;
+  background:url("../images/header-bg.png") repeat-x 0 0 / 1px 44px;
+  border-bottom:1px solid #ddd;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.jd_topBar a {
+  position:absolute;
+  top:0;
+  width: 40px;
+  height: 44px;
+ padding:12px 12px;
+
+  /* 设置背景图片从内容开始平铺 */
+  background-origin: content-box;
+  /* 设置背景图片 从内容以外开始裁剪 */
+  background-clip: content-box;
+}
+.jd_topBar .icon_back{
+  left:0;
+  background-position:-25px 0;
+}
+.jd_topBar .icon_menu{
+  right:0;
+  background-position: -60px 0;
+}
+.jd_topBar form{
+ width: 100%;
+ padding:0 40px;
+}
+.jd_topBar form input{
+  width: 100%;
+  height:30px;
+  margin-top: 9px;
+  padding-left:10px;
+  border:1px solid #ddd;
+}
+/* 分类容器 */
+.jd_category{
+ width: 100%;
+ height: 100%;
+ padding-top:45px;
+}
+.jd_category aside{
+ width: 90px;
+ height: 100%; 
+ overflow:hidden;
+}
+.jd_category aside ul{
+ width: 100%;
+}
+.jd_category aside ul li{
+  height: 50px;
+  background: #f3f4f5;
+  line-height:50px;
+  text-align: center;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+.jd_category aside ul li a{
+ display: block;
+}
+.jd_category aside ul li.now{
+  background: #fff;
+ border-right:none;
+}
+.jd_category aside ul li.now a{
+  color:red;
+}
+/* 右边分类 */
+article{
+/* width: 100%; */
+height: 100%;
+/* padding-left:90px; */
+ overflow:hidden;
+}
+article .jd_category_right{
+  padding: 0 10px
+}
+article .jd_category_right .banner{
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+ }
+
+article .jd_category_right img{
+  display: block;
+  width: 100%;
+}
+
+/* 热门分类 */
+.jd_category_right .hot{
+ margin-top:10px;
+
+}
+.jd_category_right .hot h3{
+  font-size: 12px;
+  padding: 10px 0;
+}
+.jd_category_right .hot ul{
+ width: 100%;
+
+}
+.jd_category_right .hot ul li{
+ width: 33.3333%;
+ float:left;
+}
+.jd_category_right .hot ul li a {
+ display: block;
+ width: 100%;
+}
+.jd_category_right .hot ul li a img {
+ width: 60px;
+ height: 60px;
+ display: block;
+ margin:0 auto;
+}
+.jd_category_right .hot ul li a p{
+ text-align: center;
+ font-size: 12px;
+ color:#999;
+ padding:5px 0;
+}

@@ -1,0 +1,30 @@
+.list{
+  width: 100%;
+  height: 245rem/@baseFontSize;
+  background: #F1F1F1;
+  ul{
+    width: 100%;
+    background: @backColor;
+    li{
+      width: 160rem/@baseFontSize;
+      height: 113rem/@baseFontSize;
+      float:left;
+      border:1px solid @borderColor;
+      border-right:none;
+      &.bot{
+        border-bottom:none;
+      }
+      &.rig{
+        border-right:1px solid @borderColor;
+      }
+      a{
+       display: block;
+        width: 100%;
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

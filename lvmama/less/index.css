@@ -1,0 +1,377 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 60px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (min-width: 411px) {
+  html {
+    font-size: 64.21875px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media (min-width: 468px) {
+  html {
+    font-size: 73.125px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 75px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 84.375px;
+  }
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 93.75px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 14px;
+  color: #333;
+  background: #F1F1F1;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+input[type="text"],
+input[type="search"],
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+.lmm_container {
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.lmm_topBar {
+  width: 100%;
+  height: 0.45rem;
+  background: #F7F7F7;
+  position: relative;
+}
+.lmm_topBar > h3 {
+  font-size: 0.15rem;
+  text-align: center;
+  line-height: 0.45rem;
+}
+.lmm_topBar > a {
+  position: absolute;
+  display: block;
+  color: #D3079E;
+  width: 0.5rem;
+  height: 0.2rem;
+  top: 0.1rem;
+}
+.lmm_topBar > a.san {
+  font-size: 0.15rem;
+  left: 0.1rem;
+}
+.lmm_topBar > a > .icon_sanjiao {
+  font-size: 0.12rem;
+  left: 0.1rem;
+  top: 0.1rem;
+}
+.lmm_topBar > a.icon_ren {
+  width: 0.25rem;
+  height: 0.25rem;
+  right: 0.1rem;
+  top: 0.1rem;
+  background: url("../images/icon/my.png") no-repeat center / 0.25rem 0.25rem;
+}
+.lmm_banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.lmm_banner ul:first-child {
+  width: 900%;
+  transform: translateX(-11.11111111%);
+}
+.lmm_banner ul:first-child > li {
+  width: 11.11111111%;
+  float: left;
+}
+.lmm_banner ul:first-child > li > a {
+  width: 100%;
+  display: block;
+}
+.lmm_banner ul:first-child > li > a > img {
+  width: 100%;
+  display: block;
+}
+.lmm_nav {
+  width: 100% ;
+  height: 2.42rem;
+}
+.lmm_nav ul {
+  width: 100% ;
+  background: #F7F7F7;
+}
+.lmm_nav ul li {
+  width: 2.02rem;
+  height: 1.11rem;
+  float: left;
+  margin: 0.05rem 0.05rem;
+}
+.lmm_nav ul li a {
+  display: block;
+  width: 100%;
+}
+.lmm_nav ul li a img {
+  display: block;
+  width: 100%;
+}
+.list {
+  width: 100%;
+  height: 2.45rem;
+  background: #F1F1F1;
+}
+.list ul {
+  width: 100%;
+  background: #F7F7F7;
+}
+.list ul li {
+  width: 1.6rem;
+  height: 1.13rem;
+  float: left;
+  border: 1px solid #D1D1D1;
+  border-right: none;
+}
+.list ul li.bot {
+  border-bottom: none;
+}
+.list ul li.rig {
+  border-right: 1px solid #D1D1D1;
+}
+.list ul li a {
+  display: block;
+  width: 100%;
+}
+.list ul li a img {
+  display: block;
+  width: 100%;
+}
+.list2 {
+  width: 100%;
+  height: 2.45rem;
+  background: #F7F7F7;
+}
+.list2 ul {
+  width: 100%;
+  border-bottom: 1px solid #D1D1D1;
+}
+.list2 ul li {
+  float: left;
+}
+.list2 ul li.list-1 {
+  width: 3.2rem;
+  height: 2.29rem;
+  border-right: 1px solid #D1D1D1;
+}
+.list2 ul li.list-1 a {
+  display: block;
+  width: 100%;
+}
+.list2 ul li.list-1 a img {
+  display: block;
+  width: 100%;
+}
+.list2 ul li.list-2 {
+  width: 3.2rem;
+  height: 1.16rem;
+  border-right: 1px solid #D1D1D1;
+  border-bottom: 1px solid #D1D1D1;
+}
+.list2 ul li.list-2 a {
+  display: block;
+  width: 100%;
+}
+.list2 ul li.list-2 a img {
+  display: block;
+  width: 100%;
+}
+.list2 ul li.list-3 {
+  width: 3.2rem;
+  height: 1.15rem;
+  border-right: 1px solid #D1D1D1;
+}
+.list2 ul li.list-3 a {
+  display: block;
+  width: 100%;
+}
+.list2 ul li.list-3 a img {
+  display: block;
+  width: 100%;
+}
+.rent {
+  width: 100%;
+}
+.rent ul {
+  width: 100%;
+  height: 100%;
+}
+.rent ul li {
+  border-bottom: 1px solid #D1D1D1;
+}
+.rent ul li h4 {
+  width: 100%;
+  height: 0.38rem;
+  font-size: 0.13rem;
+  padding-left: 0.15rem;
+  line-height: 0.38rem;
+}
+.rent ul li a {
+  width: 100%;
+  display: block;
+}
+.rent ul li a img {
+  width: 100%;
+  display: block;
+}
+.list3 {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: 16.9rem;
+}
+.list3 ul li.text {
+  width: 100%;
+  height: 0.45rem;
+  background: #F7F7F7;
+  border-top: 1px solid #D1D1D1;
+}
+.list3 ul li.text a {
+  line-height: 0.45rem;
+  color: #515555;
+  font-size: 0.13rem;
+}
+.list3 ul li.text a.f_left {
+  margin-left: 1.5rem;
+  color: #D3079E;
+  padding: 0 0.05rem;
+  border-bottom: 2px solid #D3079E;
+}
+.list3 ul li.text a.f_right {
+  margin-right: 1.5rem;
+}
+.list3 ul li.huo {
+  width: 100%;
+  height: 3.2rem;
+  background: #FFFFFF;
+  margin-bottom: 0.15rem;
+}
+.list3 ul li.huo a {
+  display: block;
+  width: 100%;
+}
+.list3 ul li.huo img {
+  display: block;
+  width: 100%;
+}
+.list3 ul li.huo h5 {
+  font-size: 0.13rem;
+  color: #000000;
+  line-height: 0.25rem;
+}
+.list3 ul li.huo p {
+  color: #555555;
+  line-height: 0.3rem;
+  font-size: 0.15rem;
+}
+.list3 ul li.geng {
+  width: 100%;
+  height: 0.35rem;
+  border-bottom: 1px solid #D1D1D1;
+  background: #FFFFFF;
+  text-align: center;
+  margin-bottom: 0.15rem;
+}
+.list3 ul li.geng a {
+  color: #555555;
+  font-size: 0.13rem;
+  line-height: 0.35rem;
+}
+.list3 ul li.geng2 {
+  width: 100%;
+  height: 0.35rem;
+  background: #D3079E;
+}
+.list3 ul li.geng2 a {
+  color: #FFFFFF;
+  font-size: 0.14rem;
+  font-weight: bold;
+  line-height: 0.38rem;
+}
+.list3 ul li.geng2 a.f_left {
+  padding-left: 0.15rem;
+}
+.list3 ul li.geng2 a.f_right {
+  padding-right: 0.15rem;
+}
+/*
+@import "tabs";*/
